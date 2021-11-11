@@ -6,11 +6,11 @@ describe("course 2", () => {
   const provider = anchor.Provider.local();
   anchor.setProvider(provider);
 
+  const program = anchor.workspace.Course2;
+
   let _programAccount: anchor.web3.Keypair;
 
   it("Initialize", async () => {
-    const program = anchor.workspace.Course2;
-
     const programAccount = anchor.web3.Keypair.generate();
 
     const tx = await program.rpc.initialize(Buffer.from("Hello world!"), {
@@ -36,7 +36,6 @@ describe("course 2", () => {
 
   it("Update", async () => {
     const programAccount = _programAccount;
-    const program = anchor.workspace.Course2;
     await program.rpc.update(Buffer.from("Hello Solana!"), {
       accounts: {
         announcement: programAccount.publicKey,
