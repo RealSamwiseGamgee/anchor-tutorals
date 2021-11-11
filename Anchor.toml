@@ -1,5 +1,6 @@
 [programs.localnet]
-course_1 = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+course_1 = "9eyezNhnXYyEDYeUevEV1KEczoVCYgtVp1EVeas3CBYp"
+course_2 = "CqU8bUXfDFS5fn1W2uJ59Rnpmud5ck8CoWhiskzLJhou"
 
 [registry]
 url = "https://anchor.projectserum.com"
