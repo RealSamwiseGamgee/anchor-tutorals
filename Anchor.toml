@@ -1,6 +1,9 @@
 [programs.localnet]
 course_1 = "9eyezNhnXYyEDYeUevEV1KEczoVCYgtVp1EVeas3CBYp"
 course_2 = "CqU8bUXfDFS5fn1W2uJ59Rnpmud5ck8CoWhiskzLJhou"
+course_3 = "b8zyWpt7G28SELnjvQEKkotpDjUEPNafhWd16tGAr1J"
+puppet = "HCAzLEY2FbjzY6D2QW3fh9pWaMecmAGWM63SzYfaRpVM"
+puppet_master = "DXk9DpBdz6uEfxXPg8TNh8k4URsASsHktYDk5aJfJoah"
 
 [registry]
 url = "https://anchor.projectserum.com"

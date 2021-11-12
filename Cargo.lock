@@ -730,6 +730,21 @@ dependencies = [
 ]
 
 [[package]]
+name = "puppet"
+version = "0.1.0"
+dependencies = [
+ "anchor-lang",
+]
+
+[[package]]
+name = "puppet-master"
+version = "0.1.0"
+dependencies = [
+ "anchor-lang",
+ "puppet",
+]
+
+[[package]]
 name = "quote"
 version = "1.0.10"
 source = "registry+https://github.com/rust-lang/crates.io-index"
